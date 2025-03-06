@@ -54,7 +54,7 @@ _start:
     mov	esi, eax ;кладем младшую часть от умножения в esi
 	sal	rdx, 32  ;передвигаем старшие 32 бита в младшие 32 
 	or	rsi, rdx 
-     mov r12, rsi
+    mov r12, rsi
 
     ;Вычисление (a + e^3 - c)
     movsx r8, dword [a]
