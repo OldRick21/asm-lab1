@@ -15,7 +15,7 @@ _start:
 	movsx r9, word [b]
 	movsx r10, dword [c]
 	movsx r11, word [d]
-	movsx r12, word [e]
+	movsx r12, dword [e]
 
     ; Вычисление (a - b)
     add r8, r9
